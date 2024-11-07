@@ -4,7 +4,6 @@
 #include <unordered_map>
 #include <vector>
 #include <ctime>
-#include <cstdlib>
 #include <algorithm>  // لتضمين all_of
 
 using namespace std;
