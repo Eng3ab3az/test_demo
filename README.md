@@ -1,10 +1,4 @@
 # test_demo
-#include <iostream>
-#include <string>
-#include <unordered_map>
-#include <vector>
-#include <ctime>
-#include <algorithm>  // لتضمين all_of
 
 using namespace std;
 
