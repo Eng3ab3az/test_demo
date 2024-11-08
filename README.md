@@ -8,7 +8,7 @@ jjjhjkgkggkkkkkkkkkkbbbkkkb
     string password;
     string phone_number;
 
-    User() = default;  // منشئ افتراضي
+    User() = default;  // منشئ ا
     User(string email, string password, string phone_number = "")
             : email(email), password(password), phone_number(phone_number) {}
 };
@@ -22,8 +22,8 @@ private:
     }
 
     bool verifyHuman() {
-        srand(time(0));  // تهيئة مولد الأرقام العشوائية
-        int num1 = rand() % 10 + 1; // رقم عشوائي بين 1 و10
+        srand(time(0));  //
+        int num1 = rand() % 10 + 1; // ر 1 و10
         int num2 = rand() % 10 + 1;
         int operation = rand() % 3; // اختيار العملية الحسابية عشوائياً (0: جمع، 1: طرح، 2: ضرب)
         string question;
